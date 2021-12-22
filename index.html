@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aladin&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Readex+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>scoped CSS Variables and JS</title>
+</head>
+<body class="font-2">
+    <h2 class="mb-5 mt-2" >Update CSS Variables with <span class="hl ">JS</span></h2>
+    <div class="controls">
+        <label for="spacing">Spacing:</label>
+        <input type="range" name="spacing" min="10" max="400" value="10" data-sizing="px">
+
+         <label for="blur">Blur:</label>
+        <input type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
+
+        
+         <label for="base">Base Color</label>
+        <input type="color" name="base" value="'ffc600" >
+        <div class="rounded-2">
+            <img src="./image/field.jpg" alt="" class="img-fluid rounded-2">
+ 
+        </div>
+
+       
+    </div>
+
+     <footer>
+    <div class="">
+               
+                 <p class="text-center mt-3 texts-b fs-5">©  <script>document.write( new Date().getFullYear() );</script> Created using javascript by Best Ogbeide</p>
+             </div>
+
+</footer>
+<script src="./script.js"></script>
+</body>
+</html>
